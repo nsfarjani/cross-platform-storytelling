@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+        </style>
+
+    <head>
+        <style>
+        body {
+          opacity: 1;
+          transition-duration: 5s;
+          transition-property: opacity;
+        }
+      
+        body.fade {
+          opacity: 0;
+        }
+        </style>
+      </head>
+   
+</head>
+<body>
+
+    <script>
+        document.body.className = "fade";
+      </script>
+
+    <div class="container-1">
+        <a href="index-2.html"><h2>cross-platform storytelling</h2></a>
+    </div>
+
+    
+    
+
+
+
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+  window.setTimeout(function() {
+    document.body.classList.remove("fade");
+  }, 230);
+});
+  </script>
+
+</body>
+</html>
